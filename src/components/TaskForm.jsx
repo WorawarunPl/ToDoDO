@@ -101,7 +101,7 @@ const TaskForm = ({ setTasks }) => {
     <header
       className="app_header"
       style={{
-        backgroundImage: "url('src/assets/header.jpg')",
+        backgroundImage: "url('src/assets/background-hero.jpg')",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
