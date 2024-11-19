@@ -1,0 +1,30 @@
+.tag {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #f9f9f9;
+    border: 1px solid #dfe3e6;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tag-container {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  position: relative;
+}
+
+.remove-tag {
+  background: none;
+  border: none;
+  color: #f2277f;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute; 
+  top: 16%;
+  right: 11px;
+  transform: translateY(-50%); 
+}
+
