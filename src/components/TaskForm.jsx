@@ -98,7 +98,15 @@ const TaskForm = ({ setTasks }) => {
   };
 
   return (
-    <header className="app_header" >
+    <header
+      className="app_header"
+      style={{
+        backgroundImage: "url('src/assets/header.jpg')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+    >
       <form onSubmit={handleSubmit}>
         <input
           type="text"

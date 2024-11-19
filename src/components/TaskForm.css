@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #dcdcdc;
-    background-image: url('https://www.shutterstock.com/image-photo/corn-cobs-plantation-field-sunrise-260nw-2222114189.jpg');
+    /* background-image: url('src/assets/header.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
