@@ -98,7 +98,7 @@ const TaskForm = ({ setTasks }) => {
   };
 
   return (
-    <header className="app_header">
+    <header className="app_header" >
       <form onSubmit={handleSubmit}>
         <input
           type="text"
